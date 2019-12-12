@@ -1,4 +1,4 @@
-let temp = 65
+let temp = 120
 
 // Logical And Operator - True if both sides are true. False otherwise
 // Logical Or Opeartor - True if at least one side is true. False otherwise
@@ -7,12 +7,12 @@ if (temp >= 60 && temp <= 90) {
     console.log('It is pretty nice out')
 } else if (temp <= 0 || temp >= 120) {
     console.log('Do not go outside')
-} else {
-    console.log('Eh. Do what you want')
+} else if (temp >= 40 && temp <= 49) {
+    console.log('Man`s not hot. Never hot')
 }
 
 // Challenge area
-
+// 
 // let isGuestOneVegan = false
 // let isGuestTwoVegan = false
 
